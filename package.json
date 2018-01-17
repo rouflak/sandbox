@@ -1,0 +1,31 @@
+{
+  "name": "project-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "mysql2": "^1.5.1",
+    "next": "^4.1.4",
+    "nodemon": "^1.14.11",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "sequelize": "^4.24.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "api": "nodemon src/index.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC"
+}
